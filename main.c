@@ -28,8 +28,8 @@ void counter_20(int number, int* count_greater_20);
 void between_counter(int number, int* count_between);
 
 void print_results(int number_count, int smallestNum, int largestNum, 
-	                 int count_greater_20, int count_between, int numbers_sum, 
-		               float numbers_average, float square_root);
+	           int count_greater_20, int count_between, int numbers_sum, 
+		   float numbers_average, float square_root);
 
 int main(void)
 {
