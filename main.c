@@ -80,8 +80,8 @@ int main(void)
 
 // print final output
    print_results( number_count, smallestNum, largestNum, 
-	                count_greater_20, count_between, numbers_sum, 
-	                numbers_average, square_root);  
+	          count_greater_20, count_between, numbers_sum, 
+	          numbers_average, square_root);  
   
 
    return 0;
