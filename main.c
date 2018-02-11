@@ -51,15 +51,15 @@ int main(void)
    while(number < EndLoop)     //loops until 99999 is inputted
 	{
 	   getNumber(&number); 
-     number_count_test++;       //count each loop cycle for test
+           number_count_test++;       //count each loop cycle for test
 	     
 	   if ( number == EndLoop && number_count_test <= 1) //end of loop test
 	      {	
-           printf("No input was provided.\n");
-		       return 1;
+                   printf("No input was provided.\n");
+		   return 1;
 	      }
 	    else
-          if (number == EndLoop && number_count_test > 1) //end of loop test
+          	if (number == EndLoop && number_count_test > 1) //end of loop test
 	           {
 	              break;
 	           }
@@ -180,8 +180,8 @@ void between_counter(int number, int* count_between)
 */
 
 void print_results(int number_count, int smallestNum, int largestNum, 
-	                 int count_greater_20, int count_between, int numbers_sum, 
-	                 float numbers_average, float square_root)
+	           int count_greater_20, int count_between, int numbers_sum, 
+	           float numbers_average, float square_root)
 {
 	printf("Number of integers:\t\t%6d\n", number_count);
 	printf("Smallest: \t\t        %6d\n", smallestNum);
